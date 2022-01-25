@@ -41,7 +41,6 @@ public final class OppositeDirection extends JavaPlugin implements Listener {
       Directional directional = (Directional) event.getBlock().getBlockData();
       directional.setFacing(directional.getFacing().getOppositeFace());
       event.getBlock().setBlockData(directional);
-      event.getBlock().getState().update();
     }
   }
 }
