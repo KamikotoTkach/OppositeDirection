@@ -1,0 +1,4 @@
+name: OppositeDirection
+version: '${project.version}'
+main: tkachgeek.oppositedirection.OppositeDirection
+api-version: 1.13
