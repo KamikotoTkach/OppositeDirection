@@ -2,3 +2,8 @@ name: OppositeDirection
 version: '${project.version}'
 main: tkachgeek.oppositedirection.OppositeDirection
 api-version: 1.13
+commands:
+  oppositeDirection:
+    usage: "Toggle the OppositeDirection for you"
+    aliases:
+      - odt
